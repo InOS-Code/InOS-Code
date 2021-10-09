@@ -18,7 +18,7 @@ information can be change in future.
 Thanks for using InOS Code scripts, have a good day.
   """;;
   --help)
-  echo """InOS-Code ($0)-$version
+  echo """InOS Code ($0)-$version
 
 This $0 script has some information about the InOS Code
 owner. (information can be change in future)
@@ -29,7 +29,7 @@ Commands:
       --version                  view $0 version & exit
   """;;
   --version)
-  echo """InOS-Code ($0)-$version
+  echo """InOS Code ($0)-$version
 
 This is an first release of our $0 script.
 We will update this script as soon as possible.
