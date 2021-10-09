@@ -12,4 +12,6 @@ Notice:
     Modification to whole repository can fix this issue.
 """)
 
-# For (bshscripts/website) only.
+# I added this file, just for fun.
+# You can remove this file & update the (bshscripts/website.sh) to remove the issue.
+# For (bshscripts/website.sh) only.
