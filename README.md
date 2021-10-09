@@ -7,7 +7,7 @@ You will find all information about InOS-Code in bshscripts folder, clone this r
 files one by one inside **bshscripts** folder.
 
 # About
-You will find information about InOS-Code **owner** by executing the [about](#) file from **bshscripts** folder.
+You will find information about InOS-Code **owner** by executing the [about](https://github.com/InOS-Code/InOS-Code/blob/main/bshscripts/about) file from **bshscripts** folder.
 
 # Support
 You can support us by **subscribing** to our [YouTube](https://www.youtube.com/channel/UCAW5ysk00cdIoMJn003FYQw/featured) channel, currently there is only one method
