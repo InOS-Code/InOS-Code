@@ -1,4 +1,4 @@
-# InOS-Code
+# InOS Code
 Hi, this is our official website, hosted on GitHub. If you want more information about **website**,
 go the bshscripts folder & **execute** the [website.sh](https://github.com/InOS-Code/InOS-Code/blob/main/bshscripts/website.sh) file.
 
