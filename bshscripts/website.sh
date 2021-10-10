@@ -2,12 +2,12 @@
 clear;
 websitename="InOS Code"
 version="v0.1"
-requirefile="../requirefiles/website.py"
-filenotfound="/requirefiles/website.py"
+requirefile="../requiredfiles/website.py"
+filenotfound="/requiredfiles/website.py"
 case "$1" in
   --website-i)
   if [ -f "$requirefile" ]; then
-    echo """InOS-Code ($0)-$version
+    echo """InOS Code ($0)-$version
 
 [ ! ] Information [ ! ]
 
@@ -22,7 +22,7 @@ Thanks for using InOS Code scripts, have a good day.
   fi;;
   --website-i-etu)
   if [ -f "$requirefile" ]; then
-    echo """InOS-Code ($0)-$version
+    echo """InOS Code ($0)-$version
 
 [ ! ] Information [ ! ]
 
@@ -38,7 +38,7 @@ Thanks for using InOS Code scripts, have a good day.
     echo "Error, $filenotfound not found.";
   fi;;
   --help)
-  echo """InOS-Code ($0)-$version
+  echo """InOS Code ($0)-$version
 
 InOS-Code website, the website files can be modify
 or can be deleted in future.
@@ -54,7 +54,7 @@ Notice:
     be change in future.
   """;;
   --version)
-  echo """InOS-Code ($0)-$version
+  echo """InOS Code ($0)-$version
 
 This is an first release of our $0 script.
 We will update this script as soon as possible.
