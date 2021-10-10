@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 clear;
-websitename="InOS-Code"
+websitename="InOS Code"
 version="v0.1"
-requirefile="../requirefiles/website"
-filenotfound="/requirefile/website"
+requirefile="../requirefiles/website.py"
+filenotfound="/requirefiles/website.py"
 case "$1" in
   --website-i)
   if [ -f "$requirefile" ]; then
@@ -21,7 +21,8 @@ Thanks for using InOS Code scripts, have a good day.
     echo "Error, $filenotfound not found.";
   fi;;
   --website-i-etu)
-  echo """InOS-Code ($0)-$version
+  if [ -f "$requirefile" ]; then
+    echo """InOS-Code ($0)-$version
 
 [ ! ] Information [ ! ]
 
@@ -32,7 +33,10 @@ Thanks for using InOS Code scripts, have a good day.
 - MIT License: Yes
 
 Thanks for using InOS Code scripts, have a good day.
-  """;;
+    """;
+  else
+    echo "Error, $filenotfound not found.";
+  fi;;
   --help)
   echo """InOS-Code ($0)-$version
 
@@ -41,9 +45,13 @@ or can be deleted in future.
 
 Commands:
      --website-i            get website information in simple text format
-     --website-i-etu        get website information in easy to understand format
+     --website-i-etu        get website information in (etu)
      --help                 display this message & exit
      --version              view $0 version & exit
+
+Notice:
+    The (etu) is easy to understand. This can
+    be change in future.
   """;;
   --version)
   echo """InOS-Code ($0)-$version
