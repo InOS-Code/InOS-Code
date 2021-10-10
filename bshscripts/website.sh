@@ -11,7 +11,7 @@ case "$1" in
 
 [ ! ] Information [ ! ]
 
-InOS-Code website is open source & free. Feel
+InOS Code website is open source & free. Feel
 safe & free to modify & redistribute this website.
 You can modify this website under MIT License.
 
@@ -40,7 +40,7 @@ Thanks for using InOS Code scripts, have a good day.
   --help)
   echo """InOS Code ($0)-$version
 
-InOS-Code website, the website files can be modify
+InOS Code website, the website files can be modify
 or can be deleted in future.
 
 Commands:
