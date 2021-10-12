@@ -18,6 +18,7 @@ can be added in future.
 Commands:
       --color-list               get list of colors
       --color-l-text             save colors in text file
+      --changelog                view changelog of $0
       --help                     display this message & exit
       --version                  view the version of $0
 
@@ -29,11 +30,14 @@ Notice:
   --version)
   echo """InOS Code ($0)-$version
 
-This is an first release of our $0 script.
-We will update this script as soon as possible.
+This is an second release of our $0 script.
 
 - File created on 9/10/2021
 - Last updated on 12/10/2021
+
+Notice:
+    If you want to see changelog of $0,
+    use --changelog command.
 
 Thanks for using InOS Code scripts, have a good day.
   """;;
@@ -72,6 +76,14 @@ Thanks for using InOS Code scripts, have a good day.
   else
     echo "Error, $colorsfile not found.";
   fi;;
+  --changelog)
+  echo """InOS Code ($0)-$version
+
+[ ! ] Changelog [ ! ]
+
+- v0.1 (first release)
+- $version (Added 3 new HTML colors)
+  """;;
   "")
   echo "Type --help for more information.";;
   *)
