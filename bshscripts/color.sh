@@ -1,12 +1,18 @@
 #!/usr/bin/env bash
 clear;
-version="v0.1"
+version="v0.2"
 colorsfile="inos-code.colors.txt"
+totalcolors="5"
+black="#000000"
+colortwo="#211e24"
+colorthree="#474747"
+colorfour="#747474"
+colorfive="#989898"
 case "$1" in
   --help)
   echo """InOS Code ($0)-$version
 
-We are using 2 HTML colors, more colors
+We are using $totalcolors HTML colors, more colors
 can be added in future.
 
 Commands:
@@ -27,7 +33,7 @@ This is an first release of our $0 script.
 We will update this script as soon as possible.
 
 - File created on 9/10/2021
-- Last updated on 9/10/2021
+- Last updated on 12/10/2021
 
 Thanks for using InOS Code scripts, have a good day.
   """;;
@@ -36,8 +42,11 @@ Thanks for using InOS Code scripts, have a good day.
 
 [ ! ] Colors [ ! ]
 
-1. #000000
-2. #211e24
+1. $black
+2. $colortwo
+3. $colorthree
+4. $colorfour
+5. $colorfive
 
 Thanks for using InOS Code scripts, have a good day.
   """;;
@@ -49,8 +58,11 @@ Thanks for using InOS Code scripts, have a good day.
 
 [ ! ] Colors [ ! ]
 
-1. #000000
-2. #211e24
+1. $black
+2. $colortwo
+3. $colorthree
+4. $colorfour
+5. $colorfive
 
 Thanks for using InOS Code scripts, have a good day.
     """ > inos-code.colors.txt;
